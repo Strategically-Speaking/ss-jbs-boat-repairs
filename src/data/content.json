@@ -1,0 +1,353 @@
+{
+  "siteSettings": {
+    "name": "JB's Boat Repairs",
+    "tagline": "Get Back on the Water, Fast",
+    "mission": "We keep Alabama's boats running right — from vintage motors to the latest rigs, fast turnarounds and honest work every time.",
+    "logo": {
+      "text": "JB's Boat Repairs",
+      "hasImage": false,
+      "imageAlt": ""
+    },
+    "contact": {
+      "email": "info@jbsboatrepairs.com",
+      "phone": "(205) 555-0198",
+      "address": "Alabama",
+      "hours": "Mon–Fri 8am–5pm · Sat 9am–2pm"
+    },
+    "social": {
+      "linkedin": "",
+      "instagram": "https://instagram.com/jbsboatrepairs",
+      "facebook": "https://facebook.com/jbsboatrepairs",
+      "twitter": ""
+    },
+    "nav": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "footer": {
+      "tagline": "Get back on the water, fast.",
+      "copyright": "© 2026 JB's Boat Repairs. All rights reserved."
+    },
+    "brand": {
+      "primaryColor": "#001F5B",
+      "secondaryColor": "#00B7F1",
+      "accentColor": "#FF6B00",
+      "headingFont": "Space Grotesk",
+      "bodyFont": "Inter"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Get Back on the Water, Fast",
+        "subheadline": "Alabama's trusted boat repair shop — old motors, new motors, and everything in between. Honest work. Fast turnarounds.",
+        "ctaPrimary": { "label": "Request a Repair", "href": "/contact" },
+        "ctaSecondary": { "label": "See Our Services", "href": "/services" },
+        "imageAlt": "Boat engine being repaired in a clean workshop"
+      },
+      "sections": [
+        {
+          "id": "services-preview",
+          "type": "cards",
+          "heading": "What We Fix",
+          "subheading": "From full motor rebuilds to routine maintenance, we handle it all.",
+          "items": "ref:services"
+        },
+        {
+          "id": "about-strip",
+          "type": "text-image",
+          "heading": "Started by a Boat Lover",
+          "body": "JB's Boat Repairs was founded in 2024 by Jonathan Bennett — a 22-year-old who grew up on the water. When JB couldn't find a shop that actually cared about the work, he started his own. What began as a passion for older motors has grown into a full-service repair operation serving boat owners across Alabama.",
+          "cta": { "label": "Our Story", "href": "/about" },
+          "imageAlt": "Jonathan Bennett working on an outboard motor"
+        },
+        {
+          "id": "stats",
+          "type": "stats-strip",
+          "items": "ref:stats"
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonial",
+          "heading": "What Boat Owners Say",
+          "featured": "ref:testimonials[0]"
+        },
+        {
+          "id": "cta-section",
+          "type": "cta",
+          "heading": "Ready to Get Your Boat Running?",
+          "body": "Drop us a message and we'll get back to you within one business day.",
+          "cta": { "label": "Request a Repair", "href": "/contact" }
+        }
+      ],
+      "seo": {
+        "title": "JB's Boat Repairs — Alabama Boat Repair Shop",
+        "description": "Fast, honest boat repair across Alabama. Motor repair, electrical, fiberglass, and more. Founded by a boat lover who knows the water."
+      }
+    },
+
+    "about": {
+      "hero": {
+        "headline": "Started by a Boat Lover, Built for Boat Lovers",
+        "subheadline": "JB Bennett started fixing boats because he couldn't find anyone who did it right. Two years later, he's the one Alabama boaters trust."
+      },
+      "sections": [
+        {
+          "id": "story",
+          "type": "text",
+          "heading": "Our Story",
+          "body": "JB's Boat Repairs was born in 2024 out of frustration and a whole lot of passion. Jonathan Bennett — known to everyone as JB — grew up fishing Alabama's lakes and rivers. He learned early that there's no feeling quite like being on the water, and no feeling worse than a motor that won't start.\n\nAt 22, JB couldn't find a shop that combined real technical skill with honest pricing and fast turnarounds. So he started one. What began with a specialty in older motors — the kind most shops turn away — has grown into a full-service operation. JB's handles everything from complete rebuilds to routine maintenance, and he's just as comfortable with a brand-new four-stroke as he is with a vintage two-stroke from the 70s.\n\nWe're based in Alabama, and whether you're on Smith Lake, Lake Martin, the Gulf Coast, or anywhere in between, we're here to get you back out there."
+        },
+        {
+          "id": "values",
+          "type": "list",
+          "heading": "How We Work",
+          "items": [
+            {
+              "title": "Honest Every Time",
+              "description": "We tell you exactly what your boat needs and what it'll cost — before we start. No surprises, no upsells you didn't ask for."
+            },
+            {
+              "title": "Fast Turnarounds",
+              "description": "Boat season doesn't wait. We work efficiently so you're not sitting on shore watching the summer go by."
+            },
+            {
+              "title": "Deep Technical Knowledge",
+              "description": "Old motors, new motors — JB has worked on them all. If most shops turn it away, we take it on."
+            },
+            {
+              "title": "Local to Alabama",
+              "description": "We know these waters. We know what Alabama boat owners deal with. That context makes us better at the job."
+            },
+            {
+              "title": "We Actually Care",
+              "description": "This isn't a job — it's a passion. Every repair matters to us because we're boat lovers too."
+            }
+          ]
+        },
+        {
+          "id": "team",
+          "type": "team-grid",
+          "heading": "Meet JB",
+          "items": "ref:team"
+        }
+      ],
+      "seo": {
+        "title": "About JB's Boat Repairs | Alabama's Trusted Boat Repair Shop",
+        "description": "Founded in 2024 by Jonathan Bennett, JB's Boat Repairs serves Alabama boat owners with honest work, fast turnarounds, and deep technical expertise."
+      }
+    },
+
+    "services": {
+      "hero": {
+        "headline": "We Fix Boats. All of Them.",
+        "subheadline": "Motor repair is our specialty, but we handle the full scope — electrical, fiberglass, maintenance, and more."
+      },
+      "sections": [
+        {
+          "id": "services-grid",
+          "type": "cards",
+          "heading": "Our Services",
+          "subheading": "Every repair comes with honest pricing and a clear timeline before we start.",
+          "items": "ref:services"
+        },
+        {
+          "id": "cta-section",
+          "type": "cta",
+          "heading": "Not Sure What Your Boat Needs?",
+          "body": "Send us a message and describe what's going on. We'll help you figure it out.",
+          "cta": { "label": "Get in Touch", "href": "/contact" }
+        }
+      ],
+      "seo": {
+        "title": "Boat Repair Services | JB's Boat Repairs — Alabama",
+        "description": "Motor repair, electrical, fiberglass, and general maintenance for Alabama boat owners. Fast, honest, and done right."
+      }
+    },
+
+    "contact": {
+      "hero": {
+        "headline": "Let's Get Your Boat Fixed",
+        "subheadline": "Fill out the form below and we'll get back to you within one business day."
+      },
+      "sections": [
+        {
+          "id": "contact-form",
+          "type": "contact-form",
+          "fields": [
+            {
+              "name": "name",
+              "label": "Your Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "phone",
+              "label": "Phone Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "name": "boat",
+              "label": "Boat Make, Model & Year",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "issue",
+              "label": "What's going on with your boat?",
+              "type": "textarea",
+              "required": true
+            }
+          ],
+          "submitLabel": "Send My Request",
+          "successMessage": "Got it — we'll be in touch within one business day."
+        },
+        {
+          "id": "contact-info",
+          "type": "contact-info",
+          "options": [
+            {
+              "type": "email",
+              "label": "Email Us",
+              "description": "info@jbsboatrepairs.com"
+            },
+            {
+              "type": "phone",
+              "label": "Call Us",
+              "description": "(205) 555-0198"
+            },
+            {
+              "type": "hours",
+              "label": "Shop Hours",
+              "description": "Mon–Fri 8am–5pm · Sat 9am–2pm"
+            },
+            {
+              "type": "location",
+              "label": "Location",
+              "description": "Alabama (serving statewide)"
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "title": "Contact JB's Boat Repairs | Request a Repair in Alabama",
+        "description": "Ready to get your boat fixed? Contact JB's Boat Repairs — fast response, honest pricing, and turnarounds that won't kill your season."
+      }
+    }
+  },
+
+  "services": [
+    {
+      "slug": "motor-repair",
+      "name": "Motor Repair & Rebuild",
+      "tagline": "Old motors, new motors — we know them all.",
+      "shortDescription": "Complete diagnosis, repair, and rebuild for outboard and inboard motors. JB's specialty is older motors most shops won't touch.",
+      "fullDescription": "Motor trouble is the number one reason boats end up sitting in driveways instead of on the water. At JB's, motor repair isn't just something we do — it's what we built the shop around.\n\nWe work on all outboard and inboard motors, across all brands and generations. JB has a particular expertise in older motors — vintage two-strokes, carbureted outboards, and engines from manufacturers that other shops have stopped supporting. If a shop told you your motor isn't worth fixing, bring it to us before you take their word for it.\n\nEvery repair starts with a full diagnosis. We'll tell you exactly what's wrong, what it'll cost to fix, and whether that's the right call given your motor's age and condition. No pressure, no surprise invoices.",
+      "approach": "Full diagnostic first — always. We don't start turning wrenches until you've approved the scope and cost. We use OEM parts where available and quality aftermarket where it makes sense.",
+      "whoItsFor": "Boat owners dealing with motors that won't start, run rough, overheat, or lose power. Especially good for owners of older boats whose motors most shops won't work on.",
+      "outcomes": [
+        "Motor running clean with a documented diagnosis report",
+        "Honest assessment of long-term motor health",
+        "No work done without your approval"
+      ],
+      "cta": { "label": "Request Motor Repair", "href": "/contact" },
+      "imageAlt": "Outboard motor disassembled on a workshop bench"
+    },
+    {
+      "slug": "electrical-systems",
+      "name": "Electrical Systems",
+      "tagline": "Chasing gremlins on the water isn't fun. We find them.",
+      "shortDescription": "Diagnosis and repair of marine electrical systems — wiring, batteries, bilge pumps, navigation lights, and more.",
+      "fullDescription": "Placeholder — full copy to be written. Covers marine electrical diagnosis and repair including wiring harnesses, battery systems, navigation electronics, bilge pumps, and starting systems.",
+      "approach": "Placeholder — systematic diagnosis with marine-grade replacement components.",
+      "whoItsFor": "Boat owners with electrical gremlins — lights that flicker, electronics that won't power on, batteries that drain, or wiring that needs updating.",
+      "outcomes": [
+        "Working electrical system with documented repair",
+        "Identified and resolved root cause",
+        "Safe, marine-grade components throughout"
+      ],
+      "cta": { "label": "Request Electrical Repair", "href": "/contact" },
+      "imageAlt": "Marine electrical panel with neatly organized wiring"
+    },
+    {
+      "slug": "fiberglass-hull-repair",
+      "name": "Fiberglass & Hull Repair",
+      "tagline": "From dings to deep cracks — we restore it right.",
+      "shortDescription": "Structural and cosmetic fiberglass repair for hulls, decks, and gelcoat. We fix damage from impacts, stress cracks, and osmotic blistering.",
+      "fullDescription": "Placeholder — full copy to be written. Covers fiberglass repair including gelcoat restoration, structural repair, crack filling, blister repair, and color matching.",
+      "approach": "Placeholder — proper layup, cure time, and color matching for lasting repairs.",
+      "whoItsFor": "Boat owners with hull dings, cracks, stress fractures, osmotic blistering, or cosmetic damage that needs professional repair.",
+      "outcomes": [
+        "Structurally sound and visually matched repair",
+        "Protection against water intrusion",
+        "Restored confidence in your hull's integrity"
+      ],
+      "cta": { "label": "Request Fiberglass Repair", "href": "/contact" },
+      "imageAlt": "Fiberglass boat hull being repaired and sanded smooth"
+    },
+    {
+      "slug": "general-maintenance",
+      "name": "General Maintenance & Detailing",
+      "tagline": "Keep it running. Keep it looking good.",
+      "shortDescription": "Seasonal maintenance, winterization, dewinterization, oil changes, impeller replacement, and full detailing to keep your boat at its best.",
+      "fullDescription": "Placeholder — full copy to be written. Covers routine maintenance services including oil changes, filter replacement, impeller service, winterization, dewinterization, and cosmetic detailing.",
+      "approach": "Placeholder — scheduled maintenance to manufacturer specs with documented service records.",
+      "whoItsFor": "Boat owners who want to stay ahead of problems and keep their boat looking and running like new.",
+      "outcomes": [
+        "Documented service record for your boat",
+        "Extended engine and component life",
+        "Boat ready for the water on your schedule"
+      ],
+      "cta": { "label": "Schedule Maintenance", "href": "/contact" },
+      "imageAlt": "Freshly detailed boat gleaming in Alabama sunshine"
+    }
+  ],
+
+  "team": [
+    {
+      "name": "Jonathan Bennett",
+      "title": "Owner & Lead Technician",
+      "bio": "JB grew up fishing Alabama's lakes and rivers and taught himself to fix motors before he could legally buy his own boat. At 22, he turned that obsession into JB's Boat Repairs — a shop built on fast work, honest pricing, and a genuine love for getting boats back on the water.",
+      "credentials": "Founder, JB's Boat Repairs (est. 2024)",
+      "imageAlt": "Jonathan Bennett, owner of JB's Boat Repairs, smiling in the shop"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "JB fixed an old Evinrude motor that three other shops told me was junk. Runs better than it has in years. Kid knows his stuff.",
+      "name": "Mike T.",
+      "title": "Boat Owner",
+      "org": "Smith Lake, AL"
+    },
+    {
+      "quote": "Fast, honest, and didn't try to upsell me on things I didn't need. Exactly what you want in a repair shop.",
+      "name": "Sarah K.",
+      "title": "Boat Owner",
+      "org": "Lake Martin, AL"
+    },
+    {
+      "quote": "Brought my bass boat in with electrical issues nobody could figure out. JB had it diagnosed and fixed in two days. Impressive.",
+      "name": "Derek W.",
+      "title": "Boat Owner",
+      "org": "Tuscaloosa, AL"
+    }
+  ],
+
+  "stats": [
+    { "value": "100+", "label": "Boats repaired" },
+    { "value": "2024", "label": "Founded" },
+    { "value": "Same week", "label": "Typical turnaround" },
+    { "value": "5★", "label": "Average rating" }
+  ]
+}
