@@ -47,7 +47,7 @@ export default function AboutPage() {
         <section aria-labelledby="story-heading" className="py-20 bg-surface">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl">
-              <SectionLabel>Background</SectionLabel>
+              <SectionLabel>His Background</SectionLabel>
               <h2
                 id="story-heading"
                 className="font-heading font-bold text-primary text-3xl sm:text-4xl mb-6"
