@@ -278,38 +278,6 @@
       ],
       "cta": { "label": "Request Motor Repair", "href": "/contact" },
       "imageAlt": "Outboard motor disassembled on a workshop bench"
-    },
-    {
-      "slug": "electrical-systems",
-      "name": "Electrical Systems",
-      "tagline": "Chasing gremlins on the water isn't fun. We find them.",
-      "shortDescription": "Diagnosis and repair of marine electrical systems — wiring, batteries, bilge pumps, navigation lights, and more.",
-      "fullDescription": "Covers marine electrical diagnosis and repair including wiring harnesses, battery systems, navigation electronics, bilge pumps, and starting systems.",
-      "approach": "Systematic diagnosis with marine-grade replacement components.",
-      "whoItsFor": "Boat owners with electrical gremlins — lights that flicker, electronics that won't power on, batteries that drain, or wiring that needs updating.",
-      "outcomes": [
-        "Working electrical system with documented repair",
-        "Identified and resolved root cause",
-        "Safe, marine-grade components throughout"
-      ],
-      "cta": { "label": "Request Electrical Repair", "href": "/contact" },
-      "imageAlt": "Marine electrical panel with neatly organized wiring"
-    },
-    {
-      "slug": "fiberglass-hull-repair",
-      "name": "Fiberglass & Hull Repair",
-      "tagline": "From dings to deep cracks — we restore it right.",
-      "shortDescription": "Structural and cosmetic fiberglass repair for hulls, decks, and gelcoat. We fix damage from impacts, stress cracks, and osmotic blistering.",
-      "fullDescription": "Covers fiberglass repair including gelcoat restoration, structural repair, crack filling, blister repair, and color matching.",
-      "approach": "Proper layup, cure time, and color matching for lasting repairs.",
-      "whoItsFor": "Boat owners with hull dings, cracks, stress fractures, osmotic blistering, or cosmetic damage that needs professional repair.",
-      "outcomes": [
-        "Structurally sound and visually matched repair",
-        "Protection against water intrusion",
-        "Restored confidence in your hull's integrity"
-      ],
-      "cta": { "label": "Request Fiberglass Repair", "href": "/contact" },
-      "imageAlt": "Fiberglass boat hull being repaired and sanded smooth"
     }
   ],
 
