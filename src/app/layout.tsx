@@ -21,13 +21,13 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "JB's Boat Repairs — Alabama Boat Repair Shop",
-    template: "%s | JB's Boat Repairs",
+    default: "JB's Boatworks — Alabama Boat Repair Shop",
+    template: "%s | JB's Boatworks",
   },
   description:
     "Fast, honest boat repair across Alabama. Motor repair, electrical, fiberglass, and more. Founded by a boat lover who knows the water.",
   openGraph: {
-    siteName: "JB's Boat Repairs",
+    siteName: "JB's Boatworks",
     locale: "en_US",
     type: "website",
   },
@@ -39,10 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${spaceGrotesk.variable}`}
-    >
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <body className="min-h-screen flex flex-col bg-bg antialiased">
         <SkipLink />
         <Header />

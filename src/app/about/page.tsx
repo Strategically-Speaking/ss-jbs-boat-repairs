@@ -25,13 +25,15 @@ export default function AboutPage() {
     <>
       {/* ── Page hero ───────────────────────────────────────────────────── */}
       <section
-        aria-label="About JB's Boat Repairs"
-        style={{ background: "linear-gradient(135deg, #001F5B 0%, #002A7C 100%)" }}
+        aria-label="About JB's Boatworks"
+        style={{
+          background: "linear-gradient(135deg, #001F5B 0%, #002A7C 100%)",
+        }}
         className="py-20 md:py-28"
       >
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionLabel className="text-secondary/80">Our Story</SectionLabel>
-          <h1 className="font-heading font-bold text-white text-4xl sm:text-5xl leading-tight mb-5">
+          <h1 className="font-heading font-bold text-white text-4xl sm:text-5xl leading-tight mb-5 max-w-2xl">
             {hero.headline}
           </h1>
           <p className="text-white/70 text-lg leading-relaxed max-w-xl">
@@ -44,7 +46,7 @@ export default function AboutPage() {
       {storySection && (
         <section aria-labelledby="story-heading" className="py-20 bg-surface">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-2xl">
+            <div className="max-w-6xl">
               <SectionLabel>Background</SectionLabel>
               <h2
                 id="story-heading"
@@ -53,7 +55,10 @@ export default function AboutPage() {
                 {storySection.heading}
               </h2>
               {storySection.body?.split("\n\n").map((para, i) => (
-                <p key={i} className="text-muted leading-relaxed mb-4 text-base">
+                <p
+                  key={i}
+                  className="text-muted leading-relaxed mb-4 text-base"
+                >
                   {para}
                 </p>
               ))}
@@ -85,11 +90,16 @@ export default function AboutPage() {
                   key={item.title}
                   className="bg-surface rounded-xl p-6 border border-border shadow-sm hover:border-secondary transition-colors"
                 >
-                  <div className="w-2 h-8 rounded-full bg-secondary mb-4" aria-hidden="true" />
+                  <div
+                    className="w-2 h-8 rounded-full bg-secondary mb-4"
+                    aria-hidden="true"
+                  />
                   <h3 className="font-heading font-bold text-primary text-lg mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-muted text-sm leading-relaxed">{item.description}</p>
+                  <p className="text-muted text-sm leading-relaxed">
+                    {item.description}
+                  </p>
                 </li>
               ))}
             </ul>
@@ -113,7 +123,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="max-w-2xl">
+          <div className="max-w-6xl">
             {team.map((member) => (
               <TeamCard key={member.name} member={member} />
             ))}
@@ -134,7 +144,8 @@ export default function AboutPage() {
             Let&apos;s Get Your Boat Back on the Water
           </h2>
           <p className="text-muted text-lg mb-8 max-w-lg mx-auto">
-            We&apos;re quick to respond and easy to work with. Send us a message today.
+            We&apos;re quick to respond and easy to work with. Send us a message
+            today.
           </p>
           <Button href="/contact" size="lg">
             Request a Repair

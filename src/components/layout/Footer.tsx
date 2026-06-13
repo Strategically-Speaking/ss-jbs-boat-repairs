@@ -9,20 +9,16 @@ export default function Footer() {
     <footer className="bg-primary text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-
           {/* Brand column */}
           <div>
             <Link
               href="/"
               className="flex items-center gap-2 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded"
-              aria-label="JB's Boat Repairs — home"
+              aria-label="JB's Boatworks — home"
             >
-              <Anchor
-                className="text-secondary w-5 h-5"
-                aria-hidden="true"
-              />
+              <Anchor className="text-secondary w-5 h-5" aria-hidden="true" />
               <span className="font-heading font-bold text-white text-lg">
-                JB&apos;s <span className="text-secondary">Boat</span> Repairs
+                JB&apos;s <span className="text-secondary">Boatworks</span>
               </span>
             </Link>
             <p className="mt-3 text-white/60 text-sm leading-relaxed">
@@ -35,7 +31,7 @@ export default function Footer() {
                   href={settings.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Follow JB's Boat Repairs on Instagram"
+                  aria-label="Follow JB's Boatworks on Instagram"
                   className="p-2 rounded-full bg-white/10 hover:bg-secondary/20 text-white/70 hover:text-secondary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary"
                 >
                   <Share2 className="w-4 h-4" aria-hidden="true" />
@@ -47,7 +43,7 @@ export default function Footer() {
                   href={settings.social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Follow JB's Boat Repairs on Facebook"
+                  aria-label="Follow JB's Boatworks on Facebook"
                   className="p-2 rounded-full bg-white/10 hover:bg-secondary/20 text-white/70 hover:text-secondary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary"
                 >
                   <Share2 className="w-4 h-4" aria-hidden="true" />
@@ -83,7 +79,10 @@ export default function Footer() {
             </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-white/70">
-                <Mail className="w-4 h-4 mt-0.5 text-secondary shrink-0" aria-hidden="true" />
+                <Mail
+                  className="w-4 h-4 mt-0.5 text-secondary shrink-0"
+                  aria-hidden="true"
+                />
                 <a
                   href={`mailto:${settings.contact.email}`}
                   className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:rounded"
@@ -92,7 +91,10 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-white/70">
-                <Phone className="w-4 h-4 mt-0.5 text-secondary shrink-0" aria-hidden="true" />
+                <Phone
+                  className="w-4 h-4 mt-0.5 text-secondary shrink-0"
+                  aria-hidden="true"
+                />
                 <a
                   href={`tel:${settings.contact.phone.replace(/\D/g, "")}`}
                   className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:rounded"
@@ -101,7 +103,10 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-white/70">
-                <Clock className="w-4 h-4 mt-0.5 text-secondary shrink-0" aria-hidden="true" />
+                <Clock
+                  className="w-4 h-4 mt-0.5 text-secondary shrink-0"
+                  aria-hidden="true"
+                />
                 <span>{settings.contact.hours}</span>
               </li>
             </ul>

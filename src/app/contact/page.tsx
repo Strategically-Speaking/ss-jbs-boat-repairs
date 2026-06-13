@@ -77,26 +77,33 @@ export default function ContactPage() {
     <>
       {/* ── Page hero ───────────────────────────────────────────────────── */}
       <section
-        aria-label="Contact JB's Boat Repairs"
-        style={{ background: "linear-gradient(135deg, #001F5B 0%, #002A7C 100%)" }}
+        aria-label="Contact JB's Boatworks"
+        style={{
+          background: "linear-gradient(135deg, #001F5B 0%, #002A7C 100%)",
+        }}
         className="py-20 md:py-28"
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionLabel className="text-secondary/80">Get in Touch</SectionLabel>
+          <SectionLabel className="text-secondary/80">
+            Get in Touch
+          </SectionLabel>
           <h1 className="font-heading font-bold text-white text-4xl sm:text-5xl leading-tight mb-5">
             Let&apos;s Get Your Boat Fixed
           </h1>
           <p className="text-white/70 text-lg leading-relaxed max-w-xl">
-            Fill out the form below and we&apos;ll get back to you within one business day.
+            Fill out the form below and we&apos;ll get back to you within one
+            business day.
           </p>
         </div>
       </section>
 
       {/* ── Form + info ─────────────────────────────────────────────────── */}
-      <section aria-label="Contact form and information" className="py-20 bg-bg">
+      <section
+        aria-label="Contact form and information"
+        className="py-20 bg-bg"
+      >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-
             {/* Form */}
             <div className="lg:col-span-2">
               <div className="bg-surface rounded-xl border border-border shadow-sm p-8">
@@ -131,7 +138,10 @@ export default function ContactPage() {
                           htmlFor="name"
                           className="block text-sm font-medium text-primary mb-1"
                         >
-                          Your Name <span aria-hidden="true" className="text-accent">*</span>
+                          Your Name{" "}
+                          <span aria-hidden="true" className="text-accent">
+                            *
+                          </span>
                         </label>
                         <input
                           id="name"
@@ -140,7 +150,7 @@ export default function ContactPage() {
                           required
                           autoComplete="name"
                           className="w-full rounded-lg border border-border bg-bg px-4 py-2.5 text-sm text-primary placeholder:text-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:border-secondary transition-colors"
-                          placeholder="John Smith"
+                          placeholder="Jonathan Smith"
                         />
                       </div>
 
@@ -150,7 +160,10 @@ export default function ContactPage() {
                           htmlFor="email"
                           className="block text-sm font-medium text-primary mb-1"
                         >
-                          Email Address <span aria-hidden="true" className="text-accent">*</span>
+                          Email Address{" "}
+                          <span aria-hidden="true" className="text-accent">
+                            *
+                          </span>
                         </label>
                         <input
                           id="email"
@@ -159,7 +172,7 @@ export default function ContactPage() {
                           required
                           autoComplete="email"
                           className="w-full rounded-lg border border-border bg-bg px-4 py-2.5 text-sm text-primary placeholder:text-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:border-secondary transition-colors"
-                          placeholder="john@example.com"
+                          placeholder="jonathan@example.com"
                         />
                       </div>
 
@@ -170,7 +183,9 @@ export default function ContactPage() {
                           className="block text-sm font-medium text-primary mb-1"
                         >
                           Phone Number{" "}
-                          <span className="text-muted font-normal">(optional)</span>
+                          <span className="text-muted font-normal">
+                            (optional)
+                          </span>
                         </label>
                         <input
                           id="phone"
@@ -189,7 +204,9 @@ export default function ContactPage() {
                           className="block text-sm font-medium text-primary mb-1"
                         >
                           Boat Make, Model &amp; Year{" "}
-                          <span className="text-muted font-normal">(optional)</span>
+                          <span className="text-muted font-normal">
+                            (optional)
+                          </span>
                         </label>
                         <input
                           id="boat"
@@ -201,6 +218,31 @@ export default function ContactPage() {
                       </div>
                     </div>
 
+                    {/* Service */}
+                    <div className="mt-5">
+                      <label
+                        htmlFor="service"
+                        className="block text-sm font-medium text-primary mb-1"
+                      >
+                        Service Needed{" "}
+                        <span aria-hidden="true" className="text-accent">*</span>
+                      </label>
+                      <select
+                        id="service"
+                        name="service"
+                        required
+                        defaultValue=""
+                        className="w-full rounded-lg border border-border bg-bg px-4 py-2.5 text-sm text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:border-secondary transition-colors"
+                      >
+                        <option value="" disabled>Select a service…</option>
+                        <option value="motor-repair">Motor Repair &amp; Rebuild</option>
+                        <option value="electrical-systems">Electrical Systems</option>
+                        <option value="fiberglass-hull-repair">Fiberglass &amp; Hull Repair</option>
+                        <option value="general-maintenance">General Maintenance</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+
                     {/* Issue */}
                     <div className="mt-5">
                       <label
@@ -208,7 +250,9 @@ export default function ContactPage() {
                         className="block text-sm font-medium text-primary mb-1"
                       >
                         What&apos;s going on with your boat?{" "}
-                        <span aria-hidden="true" className="text-accent">*</span>
+                        <span aria-hidden="true" className="text-accent">
+                          *
+                        </span>
                       </label>
                       <textarea
                         id="issue"
@@ -236,7 +280,10 @@ export default function ContactPage() {
                         {submitting ? "Sending…" : "Send My Request"}
                       </Button>
                       <p className="text-muted text-xs mt-3">
-                        <span aria-hidden="true" className="text-accent">*</span> Required fields
+                        <span aria-hidden="true" className="text-accent">
+                          *
+                        </span>{" "}
+                        Required fields
                       </p>
                     </div>
                   </form>
@@ -256,7 +303,10 @@ export default function ContactPage() {
                     className="flex items-start gap-3 bg-surface rounded-xl p-4 border border-border"
                   >
                     <div className="w-9 h-9 rounded-lg bg-secondary/10 flex items-center justify-center shrink-0">
-                      <Icon className="w-4 h-4 text-secondary" aria-hidden="true" />
+                      <Icon
+                        className="w-4 h-4 text-secondary"
+                        aria-hidden="true"
+                      />
                     </div>
                     <div>
                       <p className="text-xs font-semibold text-muted uppercase tracking-wide mb-0.5">
@@ -270,7 +320,9 @@ export default function ContactPage() {
                           {value}
                         </a>
                       ) : (
-                        <p className="text-primary text-sm font-medium">{value}</p>
+                        <p className="text-primary text-sm font-medium">
+                          {value}
+                        </p>
                       )}
                     </div>
                   </div>

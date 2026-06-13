@@ -25,21 +25,22 @@ export default function Header() {
           <Link
             href="/"
             className="flex items-center gap-2 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded"
-            aria-label="JB's Boat Repairs — home"
+            aria-label="JB's Boatworks — home"
           >
             <Anchor
               className="text-secondary w-6 h-6 group-hover:rotate-12 transition-transform duration-200"
               aria-hidden="true"
             />
             <span className="font-heading font-bold text-white text-lg leading-tight">
-              JB&apos;s{" "}
-              <span className="text-secondary">Boat</span>{" "}
-              Repairs
+              JB&apos;s <span className="text-secondary">Boatworks</span>
             </span>
           </Link>
 
           {/* Desktop nav */}
-          <nav aria-label="Main navigation" className="hidden md:flex items-center gap-1">
+          <nav
+            aria-label="Main navigation"
+            className="hidden md:flex items-center gap-1"
+          >
             {navLinks.map((link) => {
               const isActive =
                 link.href === "/"
@@ -53,7 +54,7 @@ export default function Header() {
                     "px-4 py-2 rounded text-sm font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-1 focus-visible:ring-offset-primary",
                     isActive
                       ? "text-secondary bg-white/10"
-                      : "text-white/80 hover:text-white hover:bg-white/10"
+                      : "text-white/80 hover:text-white hover:bg-white/10",
                   )}
                   aria-current={isActive ? "page" : undefined}
                 >
@@ -73,7 +74,9 @@ export default function Header() {
           <button
             onClick={() => setMenuOpen((prev) => !prev)}
             className="md:hidden p-2 rounded text-white hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-1 focus-visible:ring-offset-primary"
-            aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-label={
+              menuOpen ? "Close navigation menu" : "Open navigation menu"
+            }
             aria-expanded={menuOpen}
             aria-controls="mobile-nav"
           >
@@ -108,7 +111,7 @@ export default function Header() {
                     "px-4 py-3 rounded text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary",
                     isActive
                       ? "text-secondary bg-white/10"
-                      : "text-white/80 hover:text-white hover:bg-white/10"
+                      : "text-white/80 hover:text-white hover:bg-white/10",
                   )}
                   aria-current={isActive ? "page" : undefined}
                 >

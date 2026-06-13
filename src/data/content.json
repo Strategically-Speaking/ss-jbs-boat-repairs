@@ -1,18 +1,18 @@
 {
   "siteSettings": {
-    "name": "JB's Boat Repairs",
+    "name": "JB's Boatworks",
     "tagline": "Get Back on the Water, Fast",
     "mission": "We keep Alabama's boats running right — from vintage motors to the latest rigs, fast turnarounds and honest work every time.",
     "logo": {
-      "text": "JB's Boat Repairs",
+      "text": "JB's Boatworks",
       "hasImage": false,
       "imageAlt": ""
     },
     "contact": {
-      "email": "info@jbsboatrepairs.com",
+      "email": "info@jbboatworks.com",
       "phone": "(205) 555-0198",
       "address": "Alabama",
-      "hours": "Mon–Fri 8am–5pm · Sat 9am–2pm"
+      "hours": "Mon–Fri 8am–5pm"
     },
     "social": {
       "linkedin": "",
@@ -28,7 +28,7 @@
     ],
     "footer": {
       "tagline": "Get back on the water, fast.",
-      "copyright": "© 2026 JB's Boat Repairs. All rights reserved."
+      "copyright": "© 2026 JB's Boatworks. All rights reserved."
     },
     "brand": {
       "primaryColor": "#001F5B",
@@ -60,7 +60,7 @@
           "id": "about-strip",
           "type": "text-image",
           "heading": "Started by a Boat Lover",
-          "body": "JB's Boat Repairs was founded in 2024 by Jonathan Bennett — a 22-year-old who grew up on the water. When JB couldn't find a shop that actually cared about the work, he started his own. What began as a passion for older motors has grown into a full-service repair operation serving boat owners across Alabama.",
+          "body": "JB's Boatworks was founded in 2024 by Jonathan Bennett — a 22-year-old who grew up on the water. When JB couldn't find a shop that actually cared about the work, he started his own. What began as a passion for older motors has grown into a full-service repair operation serving boat owners across Alabama.",
           "cta": { "label": "Our Story", "href": "/about" },
           "imageAlt": "Jonathan Bennett working on an outboard motor"
         },
@@ -84,7 +84,7 @@
         }
       ],
       "seo": {
-        "title": "JB's Boat Repairs — Alabama Boat Repair Shop",
+        "title": "JB's Boatworks — Alabama Boat Repair Shop",
         "description": "Fast, honest boat repair across Alabama. Motor repair, electrical, fiberglass, and more. Founded by a boat lover who knows the water."
       }
     },
@@ -92,14 +92,14 @@
     "about": {
       "hero": {
         "headline": "Started by a Boat Lover, Built for Boat Lovers",
-        "subheadline": "JB Bennett started fixing boats because he couldn't find anyone who did it right. Two years later, he's the one Alabama boaters trust."
+        "subheadline": "Jonathan Bennett started fixing boats because he couldn't find anyone who did it right. Two years later, he's the one Alabama boaters trust."
       },
       "sections": [
         {
           "id": "story",
           "type": "text",
           "heading": "Our Story",
-          "body": "JB's Boat Repairs was born in 2024 out of frustration and a whole lot of passion. Jonathan Bennett — known to everyone as JB — grew up fishing Alabama's lakes and rivers. He learned early that there's no feeling quite like being on the water, and no feeling worse than a motor that won't start.\n\nAt 22, JB couldn't find a shop that combined real technical skill with honest pricing and fast turnarounds. So he started one. What began with a specialty in older motors — the kind most shops turn away — has grown into a full-service operation. JB's handles everything from complete rebuilds to routine maintenance, and he's just as comfortable with a brand-new four-stroke as he is with a vintage two-stroke from the 70s.\n\nWe're based in Alabama, and whether you're on Smith Lake, Lake Martin, the Gulf Coast, or anywhere in between, we're here to get you back out there."
+          "body": "JB's Boatworks was born in 2024 out of frustration and a whole lot of passion. Jonathan Bennett — known to everyone as JB — grew up fishing Alabama's lakes and rivers. He learned early that there's no feeling quite like being on the water, and no feeling worse than a motor that won't start.\n\nAt 22, JB couldn't find a shop that combined real technical skill with honest pricing and fast turnarounds. So he started one. What began with a specialty in older motors — the kind most shops turn away — has grown into a full-service operation. JB's handles everything from complete rebuilds to routine maintenance, and he's just as comfortable with a brand-new four-stroke as he is with a vintage two-stroke from the 70s.\n\nWe're based in Alabama, and whether you're on Smith Lake, Lake Martin, the Gulf Coast, or anywhere in between, we're here to get you back out there."
         },
         {
           "id": "values",
@@ -136,8 +136,8 @@
         }
       ],
       "seo": {
-        "title": "About JB's Boat Repairs | Alabama's Trusted Boat Repair Shop",
-        "description": "Founded in 2024 by Jonathan Bennett, JB's Boat Repairs serves Alabama boat owners with honest work, fast turnarounds, and deep technical expertise."
+        "title": "About JB's Boatworks | Alabama's Trusted Boat Repair Shop",
+        "description": "Founded in 2024 by Jonathan Bennett, JB's Boatworks serves Alabama boat owners with honest work, fast turnarounds, and deep technical expertise."
       }
     },
 
@@ -163,7 +163,7 @@
         }
       ],
       "seo": {
-        "title": "Boat Repair Services | JB's Boat Repairs — Alabama",
+        "title": "Boat Repair Services | JB's Boatworks — Alabama",
         "description": "Motor repair, electrical, fiberglass, and general maintenance for Alabama boat owners. Fast, honest, and done right."
       }
     },
@@ -219,7 +219,7 @@
             {
               "type": "email",
               "label": "Email Us",
-              "description": "info@jbsboatrepairs.com"
+              "description": "info@jbboatworks.com"
             },
             {
               "type": "phone",
@@ -229,7 +229,7 @@
             {
               "type": "hours",
               "label": "Shop Hours",
-              "description": "Mon–Fri 8am–5pm · Sat 9am–2pm"
+              "description": "Mon–Fri 8am–5pm"
             },
             {
               "type": "location",
@@ -240,8 +240,8 @@
         }
       ],
       "seo": {
-        "title": "Contact JB's Boat Repairs | Request a Repair in Alabama",
-        "description": "Ready to get your boat fixed? Contact JB's Boat Repairs — fast response, honest pricing, and turnarounds that won't kill your season."
+        "title": "Contact JB's Boatworks | Request a Repair in Alabama",
+        "description": "Ready to get your boat fixed? Contact JB's Boatworks — fast response, honest pricing, and turnarounds that won't kill your season."
       }
     }
   },
@@ -297,10 +297,10 @@
     },
     {
       "slug": "general-maintenance",
-      "name": "General Maintenance & Detailing",
+      "name": "General Maintenance",
       "tagline": "Keep it running. Keep it looking good.",
-      "shortDescription": "Seasonal maintenance, winterization, dewinterization, oil changes, impeller replacement, and full detailing to keep your boat at its best.",
-      "fullDescription": "Placeholder — full copy to be written. Covers routine maintenance services including oil changes, filter replacement, impeller service, winterization, dewinterization, and cosmetic detailing.",
+      "shortDescription": "Seasonal maintenance, winterization, dewinterization, oil changes, and impeller replacement to keep your boat at its best.",
+      "fullDescription": "Placeholder — full copy to be written. Covers routine maintenance services including oil changes, filter replacement, impeller service, winterization, and dewinterization.",
       "approach": "Placeholder — scheduled maintenance to manufacturer specs with documented service records.",
       "whoItsFor": "Boat owners who want to stay ahead of problems and keep their boat looking and running like new.",
       "outcomes": [
@@ -317,9 +317,9 @@
     {
       "name": "Jonathan Bennett",
       "title": "Owner & Lead Technician",
-      "bio": "JB grew up fishing Alabama's lakes and rivers and taught himself to fix motors before he could legally buy his own boat. At 22, he turned that obsession into JB's Boat Repairs — a shop built on fast work, honest pricing, and a genuine love for getting boats back on the water.",
-      "credentials": "Founder, JB's Boat Repairs (est. 2024)",
-      "imageAlt": "Jonathan Bennett, owner of JB's Boat Repairs, smiling in the shop"
+      "bio": "JB grew up fishing Alabama's lakes and rivers and taught himself to fix motors before he could legally buy his own boat. At 22, he turned that obsession into JB's Boatworks — a shop built on fast work, honest pricing, and a genuine love for getting boats back on the water.",
+      "credentials": "Founder, JB's Boatworks (est. 2024)",
+      "imageAlt": "Jonathan Bennett, owner of JB's Boatworks, smiling in the shop"
     }
   ],
 
@@ -347,7 +347,7 @@
   "stats": [
     { "value": "100+", "label": "Boats repaired" },
     { "value": "2024", "label": "Founded" },
-    { "value": "Same week", "label": "Typical turnaround" },
+    { "value": "5-10 days", "label": "Typical turnaround" },
     { "value": "5★", "label": "Average rating" }
   ]
 }
