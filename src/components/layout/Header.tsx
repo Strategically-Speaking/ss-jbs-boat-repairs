@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X, Anchor } from "lucide-react";
 import { cn } from "@/lib/utils";
+import WaveDecoration from "@/components/ui/WaveDecoration";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -34,6 +35,7 @@ export default function Header() {
             <span className="font-heading font-bold text-white text-lg leading-tight">
               JB&apos;s <span className="text-secondary">Boatworks</span>
             </span>
+            <WaveDecoration className="text-secondary/60 ml-1 hidden sm:inline-block" />
           </Link>
 
           {/* Desktop nav */}

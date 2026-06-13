@@ -235,10 +235,10 @@ export default function ContactPage() {
                         className="w-full rounded-lg border border-border bg-bg px-4 py-2.5 text-sm text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:border-secondary transition-colors"
                       >
                         <option value="" disabled>Select a service…</option>
+                        <option value="general-maintenance">General Maintenance</option>
                         <option value="motor-repair">Motor Repair &amp; Rebuild</option>
                         <option value="electrical-systems">Electrical Systems</option>
                         <option value="fiberglass-hull-repair">Fiberglass &amp; Hull Repair</option>
-                        <option value="general-maintenance">General Maintenance</option>
                         <option value="other">Other</option>
                       </select>
                     </div>

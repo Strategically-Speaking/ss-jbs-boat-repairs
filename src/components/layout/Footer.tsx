@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Anchor, Mail, Phone, Clock, Share2 } from "lucide-react";
 import { getSiteSettings } from "@/lib/content";
+import WaveDecoration from "@/components/ui/WaveDecoration";
 
 export default function Footer() {
   const settings = getSiteSettings();
@@ -20,12 +21,13 @@ export default function Footer() {
               <span className="font-heading font-bold text-white text-lg">
                 JB&apos;s <span className="text-secondary">Boatworks</span>
               </span>
+              <WaveDecoration className="text-secondary/60 ml-1" />
             </Link>
             <p className="mt-3 text-white/60 text-sm leading-relaxed">
               {settings.footer.tagline}
             </p>
             {/* Social links */}
-            <div className="flex gap-3 mt-4">
+            {/* <div className="flex gap-3 mt-4">
               {settings.social.instagram && (
                 <a
                   href={settings.social.instagram}
@@ -38,19 +40,7 @@ export default function Footer() {
                   <span className="sr-only">Instagram</span>
                 </a>
               )}
-              {settings.social.facebook && (
-                <a
-                  href={settings.social.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Follow JB's Boatworks on Facebook"
-                  className="p-2 rounded-full bg-white/10 hover:bg-secondary/20 text-white/70 hover:text-secondary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary"
-                >
-                  <Share2 className="w-4 h-4" aria-hidden="true" />
-                  <span className="sr-only">Facebook</span>
-                </a>
-              )}
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation column */}

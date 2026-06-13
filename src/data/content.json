@@ -164,7 +164,7 @@
       ],
       "seo": {
         "title": "Boat Repair Services | JB's Boatworks — Alabama",
-        "description": "Motor repair, electrical, fiberglass, and general maintenance for Alabama boat owners. Fast, honest, and done right."
+        "description": "General maintenance, motor repair, electrical, and fiberglass for Alabama boat owners. Fast, honest, and done right."
       }
     },
 
@@ -248,6 +248,22 @@
 
   "services": [
     {
+      "slug": "general-maintenance",
+      "name": "General Maintenance",
+      "tagline": "Keep it running. Keep it looking good.",
+      "shortDescription": "Seasonal maintenance, winterization, dewinterization, oil changes, and impeller replacement to keep your boat at its best.",
+      "fullDescription": "Covers routine maintenance services including oil changes, filter replacement, impeller service, winterization, and dewinterization.",
+      "approach": "Scheduled maintenance to manufacturer specs with documented service records.",
+      "whoItsFor": "Boat owners who want to stay ahead of problems and keep their boat looking and running like new.",
+      "outcomes": [
+        "Documented service record for your boat",
+        "Extended engine and component life",
+        "Boat ready for the water on your schedule"
+      ],
+      "cta": { "label": "Schedule Maintenance", "href": "/contact" },
+      "imageAlt": "Freshly detailed boat gleaming in Alabama sunshine"
+    },
+    {
       "slug": "motor-repair",
       "name": "Motor Repair & Rebuild",
       "tagline": "Old motors, new motors — we know them all.",
@@ -268,8 +284,8 @@
       "name": "Electrical Systems",
       "tagline": "Chasing gremlins on the water isn't fun. We find them.",
       "shortDescription": "Diagnosis and repair of marine electrical systems — wiring, batteries, bilge pumps, navigation lights, and more.",
-      "fullDescription": "Placeholder — full copy to be written. Covers marine electrical diagnosis and repair including wiring harnesses, battery systems, navigation electronics, bilge pumps, and starting systems.",
-      "approach": "Placeholder — systematic diagnosis with marine-grade replacement components.",
+      "fullDescription": "Covers marine electrical diagnosis and repair including wiring harnesses, battery systems, navigation electronics, bilge pumps, and starting systems.",
+      "approach": "Systematic diagnosis with marine-grade replacement components.",
       "whoItsFor": "Boat owners with electrical gremlins — lights that flicker, electronics that won't power on, batteries that drain, or wiring that needs updating.",
       "outcomes": [
         "Working electrical system with documented repair",
@@ -284,8 +300,8 @@
       "name": "Fiberglass & Hull Repair",
       "tagline": "From dings to deep cracks — we restore it right.",
       "shortDescription": "Structural and cosmetic fiberglass repair for hulls, decks, and gelcoat. We fix damage from impacts, stress cracks, and osmotic blistering.",
-      "fullDescription": "Placeholder — full copy to be written. Covers fiberglass repair including gelcoat restoration, structural repair, crack filling, blister repair, and color matching.",
-      "approach": "Placeholder — proper layup, cure time, and color matching for lasting repairs.",
+      "fullDescription": "Covers fiberglass repair including gelcoat restoration, structural repair, crack filling, blister repair, and color matching.",
+      "approach": "Proper layup, cure time, and color matching for lasting repairs.",
       "whoItsFor": "Boat owners with hull dings, cracks, stress fractures, osmotic blistering, or cosmetic damage that needs professional repair.",
       "outcomes": [
         "Structurally sound and visually matched repair",
@@ -294,22 +310,6 @@
       ],
       "cta": { "label": "Request Fiberglass Repair", "href": "/contact" },
       "imageAlt": "Fiberglass boat hull being repaired and sanded smooth"
-    },
-    {
-      "slug": "general-maintenance",
-      "name": "General Maintenance",
-      "tagline": "Keep it running. Keep it looking good.",
-      "shortDescription": "Seasonal maintenance, winterization, dewinterization, oil changes, and impeller replacement to keep your boat at its best.",
-      "fullDescription": "Placeholder — full copy to be written. Covers routine maintenance services including oil changes, filter replacement, impeller service, winterization, and dewinterization.",
-      "approach": "Placeholder — scheduled maintenance to manufacturer specs with documented service records.",
-      "whoItsFor": "Boat owners who want to stay ahead of problems and keep their boat looking and running like new.",
-      "outcomes": [
-        "Documented service record for your boat",
-        "Extended engine and component life",
-        "Boat ready for the water on your schedule"
-      ],
-      "cta": { "label": "Schedule Maintenance", "href": "/contact" },
-      "imageAlt": "Freshly detailed boat gleaming in Alabama sunshine"
     }
   ],
 
