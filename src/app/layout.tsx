@@ -51,7 +51,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html
+      lang="en"
+      data-scroll-behavior="smooth"
+      className={`${inter.variable} ${spaceGrotesk.variable}`}
+    >
       <body className="min-h-screen flex flex-col bg-bg antialiased">
         <SkipLink />
         <Header />
