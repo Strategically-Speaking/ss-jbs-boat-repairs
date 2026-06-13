@@ -193,7 +193,7 @@ export default function ContactPage() {
                           type="tel"
                           autoComplete="tel"
                           className="w-full rounded-lg border border-border bg-bg px-4 py-2.5 text-sm text-primary placeholder:text-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:border-secondary transition-colors"
-                          placeholder="(205) 555-0100"
+                          placeholder="(205) 234-5678"
                         />
                       </div>
 

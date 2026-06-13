@@ -10,8 +10,8 @@
     },
     "contact": {
       "email": "info@jbboatworks.com",
-      "phone": "(205) 555-0198",
-      "address": "Alabama",
+      "phone": "(205) 381-5722",
+      "address": "Central Alabama (serving statewide)",
       "hours": "Mon–Fri 8am–5pm"
     },
     "social": {
@@ -123,6 +123,10 @@
               "description": "We know these waters. We know what Alabama boat owners deal with. That context makes us better at the job."
             },
             {
+              "title": "Easy to Work With",
+              "description": "You describe what's going on, we give you a straight answer and a clear timeline. Getting your boat fixed shouldn't be harder than the repair itself."
+            },
+            {
               "title": "We Actually Care",
               "description": "This isn't a job — it's a passion. Every repair matters to us because we're boat lovers too."
             }
@@ -224,7 +228,7 @@
             {
               "type": "phone",
               "label": "Call Us",
-              "description": "(205) 555-0198"
+              "description": "(205) 381-5722"
             },
             {
               "type": "hours",
@@ -234,7 +238,7 @@
             {
               "type": "location",
               "label": "Location",
-              "description": "Alabama (serving statewide)"
+              "description": "Central Alabama (serving statewide)"
             }
           ]
         }
@@ -315,7 +319,7 @@
   "stats": [
     { "value": "75+", "label": "Boats repaired" },
     { "value": "2024", "label": "Founded" },
-    { "value": "5-10 days", "label": "Typical turnaround" },
+    { "value": "2-5 days", "label": "Typical turnaround" },
     { "value": "5★", "label": "Average rating" }
   ]
 }

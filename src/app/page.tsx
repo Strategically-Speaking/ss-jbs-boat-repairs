@@ -122,7 +122,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
             {services.map((service) => (
               <ServiceCard key={service.slug} service={service} />
             ))}
@@ -173,9 +173,9 @@ export default function HomePage() {
             </div>
 
             {/* Image */}
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+            <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg">
               <Image
-                src={placeholderImage("jb-workshop", 800, 600)}
+                src="/boatlover.jpg"
                 alt="JB's Boatworks workshop with boat engine being serviced"
                 fill
                 className="object-cover"
