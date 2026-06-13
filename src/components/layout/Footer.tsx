@@ -104,8 +104,16 @@ export default function Footer() {
         </div>
 
         {/* Copyright bar */}
-        <div className="mt-10 pt-6 border-t border-white/10 text-center text-xs text-white/40">
-          {settings.footer.copyright}
+        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/40">
+          <span>{settings.footer.copyright}</span>
+          <a
+            href="https://strategically-speaking.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white/70 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:rounded"
+          >
+            Built by Strategically Speaking
+          </a>
         </div>
       </div>
     </footer>
