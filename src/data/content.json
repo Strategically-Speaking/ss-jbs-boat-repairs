@@ -99,7 +99,7 @@
           "id": "story",
           "type": "text",
           "heading": "Our Story",
-          "body": "JB's Boatworks was born in 2024 out of frustration and a whole lot of passion. Jonathan Bennett — known to everyone as JB — grew up fishing Alabama's lakes and rivers. He learned early that there's no feeling quite like being on the water, and no feeling worse than a motor that won't start.\n\nAt 22, JB couldn't find a shop that combined real technical skill with honest pricing and fast turnarounds. So he started one. What began with a specialty in older motors — the kind most shops turn away — has grown into a full-service operation. JB's handles everything from complete rebuilds to routine maintenance, and he's just as comfortable with a brand-new four-stroke as he is with a vintage two-stroke from the 70s.\n\nWe're based in Alabama, and whether you're on Smith Lake, Lake Martin, the Gulf Coast, or anywhere in between, we're here to get you back out there."
+          "body": "JB's Boatworks was born in 2024 out of frustration and a whole lot of passion. Jonathan Bennett — known to everyone as JB — grew up fishing Alabama's lakes and rivers. He learned early that there's no feeling quite like being on the water, and no feeling worse than a motor that won't start.\n\nAt 22, JB couldn't find a shop that combined real technical skill with honest pricing and fast turnarounds. So he started one. What began with a specialty in older motors — the kind most shops turn away — has grown into a full-service operation. JB's handles everything from complete rebuilds to routine maintenance, and he's just as comfortable with a brand-new four-stroke as he is with a vintage two-stroke from the 70s.\n\nWe're based in Alabama, and whether you're on Lake Purdy, Smith Lake, Lake Martin, the Gulf Coast, or anywhere in between, we're here to get you back out there."
         },
         {
           "id": "values",
@@ -345,7 +345,7 @@
   ],
 
   "stats": [
-    { "value": "100+", "label": "Boats repaired" },
+    { "value": "75+", "label": "Boats repaired" },
     { "value": "2024", "label": "Founded" },
     { "value": "5-10 days", "label": "Typical turnaround" },
     { "value": "5★", "label": "Average rating" }
