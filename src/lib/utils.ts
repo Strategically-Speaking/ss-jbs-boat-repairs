@@ -12,10 +12,10 @@ export function cn(...inputs: ClassValue[]) {
  */
 const UNSPLASH_SEED_MAP: Record<string, string> = {
   "jb-workshop": "1544551763-46a013bb70d5", // marina / harbor
-  "jb-motor-repair": "1540946485063-a40da27545f8", // engine / motor
+  "jb-motor-repair": "1562814981-029001175685", // engine / motor
   "jb-electrical-systems": "1569101980855-b4e2d2c4e21f", // wiring / electronics
   "jb-fiberglass-hull-repair": "1519113464522-b0a7afeabde2", // boat hull
-  "jb-general-maintenance": "1533473359331-0135ef1b58bf", // boat on water
+  "jb-general-maintenance": "1551131618-3f0a5cf594b4", // fishing rods in boat
   "jb-team": "1533473359331-0135ef1b58bf", // young man portrait
 };
 
@@ -23,7 +23,7 @@ const UNSPLASH_SEED_MAP: Record<string, string> = {
 const FALLBACK_IDS = [
   "1544551763-46a013bb70d5",
   "1499336099440-dbd1b60ebbee",
-  "1533473359331-0135ef1b58bf",
+  "1551131618-3f0a5cf594b4",
 ];
 
 function getPhotoId(seed: string): string {
