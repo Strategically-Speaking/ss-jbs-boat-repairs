@@ -11,6 +11,7 @@ import {
 import { placeholderImage } from "@/lib/utils";
 import Button from "@/components/ui/Button";
 import SectionLabel from "@/components/ui/SectionLabel";
+import HeroBoat from "@/components/ui/HeroBoat";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
 
@@ -56,6 +57,14 @@ export default function HomePage() {
             transform: "translate(-30%, 30%)",
           }}
         />
+
+        {/* Animated boat — desktop only */}
+        <div
+          aria-hidden="true"
+          className="absolute right-0 bottom-0 w-[320px] xl:w-[400px] hidden lg:block pointer-events-none select-none opacity-75"
+        >
+          <HeroBoat />
+        </div>
 
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 lg:py-36">
           <div className="max-w-2xl">
