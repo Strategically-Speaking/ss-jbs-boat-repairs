@@ -60,7 +60,7 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 lg:py-36">
           <div className="max-w-2xl">
             <SectionLabel className="text-secondary/80">
-              Alabama&apos;s Boat Repair Shop
+              Alabama&apos;s Trusted Boat Repair Shop
             </SectionLabel>
             <h1 className="font-heading font-bold text-white text-4xl sm:text-5xl lg:text-6xl leading-tight mb-5">
               {hero.headline}

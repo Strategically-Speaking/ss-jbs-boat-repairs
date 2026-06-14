@@ -21,7 +21,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "JB's Boatworks — Alabama Boat Repair Shop",
+    default: "JB's Boatworks — Alabama's Trusted Boat Repair Shop",
     template: "%s | JB's Boatworks",
   },
   description:
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         url: "https://jbs-boatworks.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "JB's Boatworks — Alabama Boat Repair Shop",
+        alt: "JB's Boatworks — Alabama's Trusted Boat Repair Shop",
       },
     ],
   },
