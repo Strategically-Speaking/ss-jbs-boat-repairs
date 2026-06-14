@@ -8,15 +8,15 @@ interface TeamCardProps {
 
 export default function TeamCard({ member }: TeamCardProps) {
   return (
-    <article className="bg-surface h-80 rounded-xl overflow-hidden border border-border shadow-sm flex flex-col sm:flex-row gap-0">
+    <article className="bg-surface rounded-xl overflow-hidden border border-border shadow-sm flex flex-col sm:flex-row gap-0">
       {/* Photo */}
-      <div className="relative w-full sm:w-64 h-80 sm:h-auto shrink-0">
+      <div className="relative w-full sm:w-64 h-64 sm:h-80 shrink-0">
         <Image
           src="/fisherman.jpg"
           alt={member.imageAlt}
           fill
-          className="object-cover object-center"
-          sizes="(max-width: 1280px) 100vw, 50vh"
+          className="object-cover object-top"
+          sizes="(max-width: 640px) 100vw, 16rem"
         />
       </div>
 
